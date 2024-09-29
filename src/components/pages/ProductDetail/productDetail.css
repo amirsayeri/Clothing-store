@@ -1,0 +1,92 @@
+.Detile_div{
+    /* background-color: red; */
+    padding: 10px;
+}
+
+
+
+.Detile_Product{
+    width: 70%;
+    /* background-color: blueviolet; */
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+
+
+.Detile_left{
+    width: 50%;
+    /* background-color: cyan; */
+    padding: 10px;
+    padding-left: 4rem;
+}
+
+.detile_title{
+    font-size: 30px;
+    margin-top: 20px ;
+}
+
+.imgstar{
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+.detile_price{
+    margin-bottom: 20px ;
+    font-size: 30px;
+}
+
+.detile_text{
+    color: gray;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+.detile_buy{
+    border: 2px solid rgb(230, 230, 230) ;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.detile_btn{
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px ;
+}
+.detile_btn:hover{
+    background-color: rgb(79, 79, 255);
+    color: white;
+    cursor: pointer;
+}
+.detile_number{
+    margin: 0 10px;
+}
+.detile_vejegi{
+    margin: 10px 0;
+    color: gray;
+}
+
+
+
+
+
+.Detile_right{
+    /* background-color: chartreuse; */
+    padding: 10px;
+    width: 50%;
+}
+.Detile_img{
+    width: 100%;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,55 @@
+.login_page{
+    width: 100%;
+    height: 90vh;
+    padding-top: 5rem;
+}
+
+
+.card_login{
+    width:400px ;
+    border-radius: 5px ;
+    border: none;
+    box-shadow: 0 0 5px lightgray;
+    padding: 20px 30px ;
+    margin: 3rem auto;
+}
+.h3_login{
+    font-size: 30px;
+}
+.inputEmail_login{
+    padding: 10px;
+    width: 100%;
+    margin: 15px 0 ;
+    outline: none;
+}
+.inputPass_login{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+.textTow_login{
+    margin: 20px 0 ;
+    color: rgb(0, 60, 226);
+}
+.signInBtn{
+    background-color: rgb(0, 60, 226);
+    padding: 15px 10px ;
+    border: none;
+    width: 100%;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+}
+.or_login{
+    margin: 10px 0 ;
+    color: gray;
+    text-align: center;
+}
+.signInApple{
+    width: 100%;
+    background-color: white;
+    padding: 15px 10px ;
+    border-radius: 40px;
+    border: 2px solid gray;
+    cursor: pointer;
+}

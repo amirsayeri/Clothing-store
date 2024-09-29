@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../public/font/Vazir-Bold.woff);
+}
+.navbar{
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: none;
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    direction: rtl;
+}
+
+.menu_item{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "vazir";
+
+}
+
+.menu_item:hover{
+    color: rgb(79, 79, 255);
+}
+
+
+
+.right_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box_login{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box_login p {
+    font-family: "vazir";
+    font-size: 14px;
+}
+.logo{
+    width: 130px;
+    height: 100%;
+    cursor: pointer;
+}
+.login{
+    width: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.sabad{
+    width: 27px;
+    margin-left: 12px;
+}
+.number_sabad{
+    font-weight: bold;
+    margin: 0 5px;
+    background-color: rgba(182, 182, 182, 0.917);
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    text-align: center;
+}
+
+.login{
+    width:30px;
+}
+
+
+.icon_menu{
+    width: 30px;
+    display: none;
+}
+
+.menu_container{
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.menu_Burger{
+    position: absolute;
+    top: 6px;
+    background: #303030;
+    width: 40%;
+    text-align: center;
+    list-style-type: none;
+    border-radius:5px ;
+    box-shadow: 0 0 5px rgb(112, 126, 140);
+    transform: translate(-44%,23%);
+    transition: transform 0.3s ease-in , opacity 0.2s ease;
+    display: none;
+    margin-top: 10px;
+}
+.menu_Burger li {
+    border-bottom: 1px solid rgb(154, 158, 148);
+    
+}
+.menu_Item_Burger{
+    width: 100%;
+    line-height: 35px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+}
+.menu_Burger::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #303030;
+    top: -2px;
+    right: 8px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+
+
+@media only screen and (max-width : 650px) {
+    .menu{
+        display: none;
+    }
+    .menu_container{
+        display: block;
+    }
+
+    .icon_menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 380px) {
+    .right_menu{
+        margin: 5px;
+    }
+    .logo{
+        margin: 5px 0 ;
+    }
+    .menu_Burger{
+        transform: translate(-38%,49%);
+    }
+}
+
+@media only screen and (max-width : 319px ) {
+    .menu_Burger{
+       transform: translate(-35%,47%);
+    }
+}
+
+@media only screen and (max-width : 291px ) {
+    .menu_Burger{
+       transform: translate(-35%,77%);
+    }
+}

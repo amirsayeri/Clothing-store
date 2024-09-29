@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../public/font/Vazir-Bold.woff);
+}
+
+@keyframes coverModel {
+  0% {
+    background-image: url(../../../public/ghaleb/slide-01.jpg);
+  }
+  25% {
+    background-image: url(../../../public/ghaleb/slide-02.jpg);
+  }
+  50% {
+    background-image: url(../../../public/ghaleb/slide-03.jpg);
+  }
+  75% {
+    background-image: url(../../../public/ghaleb/slide-01.jpg);
+  }
+  100% {
+    background-image: url(../../../public/ghaleb/slide-02.jpg);
+  }
+}
+
+
+.baner {
+  width: 100%;
+  height: 93vh;
+  animation: coverModel 10s infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 12rem;
+  padding-left: 5rem;
+  overflow: hidden;
+}
+
+.cover_h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  font-family: "vazir";
+}
+.cover_h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "vazir";
+}
+.cover_btn {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color:var(--oneColorGray);
+  color: white;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  overflow: hidden;
+  font-family: "vazir";
+}
+.cover_btn:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 15px rgb(209, 209, 209);
+}
+
+.Selection {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 3rem 0;
+  overflow: hidden;
+}
+.div_selection {
+  width: 400px;
+  overflow: hidden;
+  padding: 5px;
+}
+.img {
+  width: 100%;
+  box-shadow: 0 0 5px rgb(194, 194, 194);
+}
+.text_selection {
+  font-size: 30px;
+  transform: translate(20px, 80px);
+  font-family: "vazir";
+}
+
+.p_selection {
+  opacity: 0;
+  color: white;
+  padding-left: 20px;
+  line-height: 25px;
+  font-weight: bold;
+}
+.div_selection:hover img {
+  filter: brightness(50%);
+}
+.div_selection:hover .p_selection {
+  opacity: 1;
+  transform: translateY(-11rem);
+  transition: all ease 0.5s;
+}
+
+
+.div_filter {
+  padding-left: 7rem;
+  overflow: hidden;
+}
+.h2_Product {
+  font-size: 30px;
+  font-family: "vazir";
+  text-align: center;
+}
+.menu_filter {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+
+.parallax{
+  width: 100%;
+  height: 400px;
+  background-image: url(../../../../public/ghaleb/model.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.textParallax{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  font-size: 25px;
+}
+.parallax h2{
+  font-family: "vazir";
+}
+.parallax p{
+  font-family: "vazir";
+}
+
+
+@media (max-width:950px) {
+  .div_model h2 {
+    position: fixed;
+  }
+}

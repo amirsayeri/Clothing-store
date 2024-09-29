@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../public/font/Vazir-Bold.woff);
+}
+.contact{
+    background-color: rgb(230, 230, 230);
+}
+
+.top_contact{
+    padding: 4rem 0 ;
+    overflow: hidden;
+}
+
+.text_Tow{
+    font-size: 2rem ;
+    font-family: "vazir";
+
+}
+
+.top_contact{
+    text-align: center;
+}
+
+
+
+
+.botton_contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 ;
+    margin-bottom: 10px;
+}
+.childLeft_contact{
+    text-align: center;
+    width: 50%;
+    overflow: hidden;
+    direction: rtl;
+}
+.textleft_contact{
+    color: gray;
+    margin-bottom: 10px;
+    font-family: "vazir";
+
+}
+.formContact{
+    text-align: center;
+    
+}
+.formContact input{
+    margin: 10px 0 ;
+    width: 30rem;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    outline: none;
+    font-family: "vazir";
+
+}
+.textAria_contact{
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0 ;
+    padding: 10px;
+    font-family: "vazir";
+    outline: none;
+}
+
+
+.childRight_contact{
+    text-align: center;
+    width: 50%;
+    overflow: hidden;
+}
+.pTop_conteact{
+    margin-bottom: 10px;
+    color: gray;
+    font-family: "vazir";
+}
+.text_address_contact{
+    margin: 10px 0 ;
+    line-height: 25px;
+    font-family: "vazir";
+}
+.h3Tilte_contact{
+    margin: 20px 0 ;
+    font-family: "vazir";
+}
+
+
+.btnFormSubmit{
+    cursor: pointer;
+}
