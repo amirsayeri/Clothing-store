@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "vazir";
+}
+body {
+  --oneColorGray: rgb(163, 163, 163);
+}

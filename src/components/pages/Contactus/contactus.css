@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../public/font/Vazir-Bold.woff);
+}
+.contact {
+  background-color: rgba(232, 232, 232, 0.575);
+  padding: 10px;
+}
+
+.titleTopContact {
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(140, 140, 140);
+}
+
+.boxContact {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 10px;
+}
+.data_store {
+  direction: rtl;
+  line-height: 4rem;
+}
+.call {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.support {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.meail {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.location {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.input_BoxContact {
+  text-align: end;
+}
+.input_BoxContact h3 {
+  margin-bottom: 30px;
+  color: rgb(145, 145, 145);
+}
+.form_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+
+.form_contact input {
+  width: 30rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.textareaBox {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  height: 150px;
+}
+
+.btnContact {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  background-color: rgb(46, 52, 222);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .form_contact input {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .form_contact input {
+    width: 15rem;
+  }
+}

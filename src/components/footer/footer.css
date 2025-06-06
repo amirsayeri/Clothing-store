@@ -1,0 +1,92 @@
+.footer {
+  background-color: white;
+  padding: 70px 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.136);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+
+.ul_oneBox {
+  list-style-type: none;
+  margin-top: 20px;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.ul_oneBox li:hover {
+  color: #db9758;
+}
+
+.ul_twoBox {
+  list-style-type: none;
+  margin-top: 20px;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.ul_twoBox li:hover {
+  color: #db9758;
+}
+
+.ul_threeBox {
+  list-style-type: none;
+  margin-top: 20px;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.ul_threeBox li:hover {
+  color: #db9758;
+}
+
+.emailBoxFooter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  border: 2px solid rgba(211, 211, 211, 0.631);
+  padding: 5px;
+  border-radius: 10px;
+}
+.emailBoxFooter input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.emailBoxFooter button {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  background-color: #db9758da;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.socialBox h4 {
+  margin: 20px 0;
+}
+.social {
+  direction: ltr;
+}
+.socialBox h4 {
+  color: rgba(95, 95, 95, 0.99);
+}
+.social img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.social img:hover {
+  transform: translateY(-5px);
+  transition: all ease 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    gap: 40px;
+  }
+}

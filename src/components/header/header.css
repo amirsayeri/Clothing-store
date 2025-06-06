@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../public/font/Vazir-Bold.woff);
+}
+.navbar {
+  box-shadow: 0 0 5px gray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: hidden;
+  font-size: 15px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  direction: rtl;
+}
+
+.menu_item {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "vazir";
+}
+
+.menu_item:hover {
+  color: #db9758;
+}
+
+.right_menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.box_login {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 1px solid rgba(211, 211, 211, 0.602);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box_login p {
+  font-family: "vazir";
+  font-size: 13px;
+}
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+.login {
+  width: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.sabad {
+  width: 27px;
+  margin-left: 12px;
+}
+.number_sabad {
+  font-weight: bold;
+  background-color: rgba(182, 182, 182, 0.917);
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  text-align: center;
+}
+
+.login {
+  width: 30px;
+}
+
+/* -------------------------------- */
+
+.links-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  backdrop-filter: blur(25px);
+}
+.links-container a {
+  height: 100%;
+  padding: 0 20px;
+  display: none;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.links-container a:hover {
+  background-color: var(--accent-color);
+}
+
+.home-link {
+  margin-right: auto;
+}
+
+.links-container svg {
+  fill: var(--text-color);
+}
+
+#sidebar-active {
+  display: none;
+}
+.open-sidebar-button,
+.close-sidebar-button {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .menu {
+    display: none;
+  }
+  .links-container {
+    flex-direction: column;
+    align-items: start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 250px;
+    background-color: var(--color-1);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    transition: ease 0.5s;
+  }
+  .links-container a {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .open-sidebar-button,
+  .close-sidebar-button {
+    padding: 5px;
+    display: block;
+  }
+  #sidebar-active:checked ~ .links-container {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .right_menu {
+    margin: 5px;
+  }
+  .logo {
+    display: none;
+  }
+}

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "vazir";
+    src: url(../public/font/Vazir-Bold.woff);
+}
+
+.div_Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 3rem 0;
+
+}
+
+.div_img{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.card{
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgb(191, 191, 191);
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: end;
+}
+.card:hover{
+    box-shadow: 0 0 7px rgb(161, 161, 161);
+}
+.card h3{
+    font-family: "vazir";
+}
+.card:hover img {
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+
+}
+.img{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.boxtitles{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    margin: 20px 0 ;
+}
+.div_tozih{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    font-family: "vazir";
+}
+.btn:hover{
+    box-shadow: 0 0 5px rgb(203, 203, 203);
+}
+
+
+.price{
+    font-family: "vazir";
+}
+
+
+.div_filtering{
+    width: 91%;
+    padding: 10px 40px;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div_btn_filter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.btn_Procards{
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "vazir";
+}
+.btn_Procards:hover{
+    box-shadow: 0 0 5px rgb(224, 224, 224);
+}
+
+.inputSearch{
+    border: none;
+    width: 250px;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    font-family: "vazir";
+    direction: rtl;
+}
+.search_btn{
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0 ;
+    cursor: pointer;
+    font-family: "vazir";
+}
+
+@media only screen and (max-width : 920px){
+    .btn_Procards{
+        margin: 5px ;
+    }
+    .inputSearch{
+        margin: 5px 0 ;
+    }
+    .div_filtering{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width : 650px){
+    .btn_Procards{
+        margin: 5px ;
+    }
+    .inputSearch{
+        margin: 5px 0 ;
+    }
+    .div_filtering{
+        justify-content: center;
+    }
+}

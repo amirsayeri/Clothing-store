@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "vazir";
+  src: url(../public/font/Vazir-Bold.woff);
+}
+.about {
+  padding: 10px;
+  text-align: center;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.imgAboutBox {
+  width: 50%;
+}
+.imgAbout {
+  width: 100%;
+}
+.about_h2 {
+  font-size: 35px;
+  font-weight: 800;
+  margin: 3rem 0;
+  font-family: "vazir";
+}
+.about_text {
+  color: var(--oneColorGray);
+  line-height: 23px;
+  font-family: "vazir";
+  padding: 0 10px;
+}
+
+@media (max-width: 900px) {
+  .imgAboutBox {
+    width: 100%;
+  }
+}

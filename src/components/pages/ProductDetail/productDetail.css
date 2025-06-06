@@ -1,0 +1,114 @@
+.Detile_div {
+  direction: rtl;
+  padding: 30px;
+}
+
+.Detile_Product {
+  border: 2px solid rgba(128, 128, 128, 0.063);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* ___________________ */
+.Detile_right {
+  padding: 5px;
+}
+.Detile_right img {
+  width: 100%;
+}
+
+/* ___________________ */
+
+.Detile_left {
+  padding: 20px;
+}
+
+.boxPartTwo {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.colors {
+  margin: 40px 0;
+  color: gray;
+  font-size: 15px;
+}
+.colors h4 {
+  color: rgba(0, 0, 0, 0.703);
+}
+.container {
+  margin-left: 20px;
+  display: inline-flex;
+}
+
+.size {
+  color: gray;
+  margin: 50px 0;
+  font-size: 15px;
+
+}
+.size h4 {
+  color: rgba(0, 0, 0, 0.703);
+}
+.detile_buy {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.detile_buy p {
+  color: rgba(0, 0, 0, 0.703);
+}
+.detile_buy button {
+  background-color: #db9758;
+  border: none;
+  padding: 5px 30px;
+  color: white;
+}
+
+.discriptionProduct h5 {
+  color: rgba(0, 0, 0, 0.703);
+}
+.detile_text {
+  font-size: 13px;
+  color: gray;
+}
+
+@media (max-width: 1000px) {
+  .Detile_Product {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Detile_right {
+    width: 35%;
+  }
+  .Detile_left {
+    width: 60%;
+  }
+}
+
+@media (max-width: 683px) {
+  .Detile_Product {
+    justify-content: center;
+  }
+  .Detile_right {
+    width: 60%;
+  }
+  .Detile_left {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .Detile_right {
+    width: 100%;
+  }
+  .Detile_right img {
+    width: 100%;
+  }
+}
